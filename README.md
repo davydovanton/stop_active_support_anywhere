@@ -9,6 +9,16 @@ you can use instead using ActiveSupport
 
 ## Features
 
+### ActiveSupport::Configurable
+[Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/Configurable.html)
+
+#### Alternatives
+1. gem: dry-configurable [link](http://dry-rb.org/gems/dry-configurable/)
+2. gem: markevans/configurable [link](https://github.com/markevans/configurable)
+3. gem: ged/configurability [link](https://github.com/ged/configurability)
+4. post: Ruby Gem Configuration Patterns [link](http://brandonhilkert.com/blog/ruby-gem-configuration-patterns/)
+5. post: MyGem.configure Block [link](https://robots.thoughtbot.com/mygem-configure-block)
+
 ## Not rails specific gems which use AS as dependency
 
 ## Contribute
