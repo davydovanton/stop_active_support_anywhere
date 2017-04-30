@@ -11,6 +11,7 @@ you can use instead using ActiveSupport
 * [ActiveSupport::ArrayInquirer](#activesupportarrayinquirer)
 * [ActiveSupport::Callbacks](#activesupportcallbacks)
 * [ActiveSupport::Configurable](#activesupportconfigurable)
+* [ActiveSupport::Concurrency](#activesupportconcurrency)
 
 ## Features
 
@@ -36,6 +37,12 @@ you can use instead using ActiveSupport
 3. gem: ged/configurability [link](https://github.com/ged/configurability)
 4. post: Ruby Gem Configuration Patterns [link](http://brandonhilkert.com/blog/ruby-gem-configuration-patterns/)
 5. post: MyGem.configure Block [link](https://robots.thoughtbot.com/mygem-configure-block)
+
+### ActiveSupport::Concurrency
+[Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/Concurrency.html)
+
+#### Alternatives
+1. ruby-concurrency [link](https://github.com/ruby-concurrency)
 
 ## Not rails specific gems which use AS as dependency
 
