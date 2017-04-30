@@ -7,7 +7,25 @@ some developers use rails dependency in gems which not related to use only with
 rails. That's why the main idea of this repo is to collect all libraries which
 you can use instead using ActiveSupport
 
+## Table of contents
+* [ActiveSupport::ArrayInquirer](#activesupportarrayinquirer)
+* [ActiveSupport::Callbacks](#activesupportcallbacks)
+* [ActiveSupport::Configurable](#activesupportconfigurable)
+
 ## Features
+
+### ActiveSupport::ArrayInquirer
+[Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/ArrayInquirer.html)
+
+#### Alternatives
+
+### ActiveSupport::Callbacks
+[Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/Callbacks.html)
+
+#### Alternatives
+1. gem: delner/hollerback [link](https://github.com/delner/hollerback)
+2. gem: PragTob/after_do [link](https://github.com/PragTob/after_do)
+3. sources: RSpec::Core::Hooks [link](https://github.com/rspec/rspec-core/blob/master/lib/rspec/core/hooks.rb)
 
 ### ActiveSupport::Configurable
 [Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/Configurable.html)
