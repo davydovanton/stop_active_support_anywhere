@@ -12,6 +12,7 @@ you can use instead using ActiveSupport
 * [ActiveSupport::Callbacks](#activesupportcallbacks)
 * [ActiveSupport::Configurable](#activesupportconfigurable)
 * [ActiveSupport::Concurrency](#activesupportconcurrency)
+* [ActiveSupport::Deprecation](#activesupportdeprecation)
 
 ## Features
 
@@ -43,6 +44,16 @@ you can use instead using ActiveSupport
 
 #### Alternatives
 1. ruby-concurrency [link](https://github.com/ruby-concurrency)
+
+### ActiveSupport::Deprecation
+[Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/Deprecation.html)
+
+#### Alternatives
+1. core library: Gem::Deprecate [link](http://ruby-doc.org/stdlib-1.9.3/libdoc/rubygems/rdoc/Gem/Deprecate.html)
+2. gem: Hanami::Deprecation [link](https://github.com/hanami/utils/blob/master/lib/hanami/utils/deprecation.rb)
+2. gem: erikh/deprecated [link](https://github.com/erikh/deprecated)
+3. gem: cbeer/deprecation [link](https://github.com/cbeer/deprecation)
+
 
 ## Not rails specific gems which use AS as dependency
 
