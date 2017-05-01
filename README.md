@@ -13,6 +13,7 @@ you can use instead using ActiveSupport
 * [ActiveSupport::Configurable](#activesupportconfigurable)
 * [ActiveSupport::Concurrency](#activesupportconcurrency)
 * [ActiveSupport::Deprecation](#activesupportdeprecation)
+* [ActiveSupport::Duration](#activesupportduration)
 
 ## Features
 
@@ -53,6 +54,13 @@ you can use instead using ActiveSupport
 2. gem: Hanami::Deprecation [link](https://github.com/hanami/utils/blob/master/lib/hanami/utils/deprecation.rb)
 2. gem: erikh/deprecated [link](https://github.com/erikh/deprecated)
 3. gem: cbeer/deprecation [link](https://github.com/cbeer/deprecation)
+
+### ActiveSupport::Duration
+[Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/Duration.html)
+
+#### Alternatives
+1. gem: zverok/time_math2 [link](https://github.com/zverok/time_math2)
+2. gem: janko-m/as-duration [link](https://github.com/janko-m/as-duration)
 
 
 ## Not rails specific gems which use AS as dependency
