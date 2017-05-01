@@ -2,7 +2,7 @@
 
 ## Goal
 We love ruby and ruby community. We can find excellent web (and not only web)
-frameworks like rails, hamami, grape, sinatra, dry-w, roda, etc. But sometimes
+frameworks like rails, hanami, grape, sinatra, dry-wb, roda, etc. But sometimes
 some developers use rails dependency in gems which not related to use only with
 rails. That's why the main idea of this repo is to collect all libraries which
 you can use instead using ActiveSupport
