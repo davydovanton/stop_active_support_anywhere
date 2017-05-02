@@ -16,6 +16,7 @@ you can use instead using ActiveSupport
 * [ActiveSupport::Duration](#activesupportduration)
 * [ActiveSupport::Gzip](#activesupportgzip)
 * [ActiveSupport::HashWithIndifferentAccess](#activesupporthashwithindifferentaccess)
+* [ActiveSupport::Inflector](#activesupportinflector)
 
 ## Features
 
@@ -77,6 +78,12 @@ you can use instead using ActiveSupport
 #### Alternatives
 1. gem: hashie [link](https://github.com/intridea/hashie#indifferentaccess)
 
+### ActiveSupport::Inflector
+[Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/Inflector.html)
+
+#### Alternatives
+1. gem: inflecto [link](https://github.com/mbj/inflecto)
+2. gem: linguistics [link](https://github.com/ged/linguistics)
 
 ## Not rails specific gems which use AS as dependency
 
