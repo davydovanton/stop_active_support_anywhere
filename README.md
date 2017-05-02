@@ -14,6 +14,7 @@ you can use instead using ActiveSupport
 * [ActiveSupport::Concurrency](#activesupportconcurrency)
 * [ActiveSupport::Deprecation](#activesupportdeprecation)
 * [ActiveSupport::Duration](#activesupportduration)
+* [ActiveSupport::Gzip](#activesupportgzip)
 
 ## Features
 
@@ -62,6 +63,12 @@ you can use instead using ActiveSupport
 1. gem: zverok/time_math2 [link](https://github.com/zverok/time_math2)
 2. gem: janko-m/as-duration [link](https://github.com/janko-m/as-duration)
 
+### ActiveSupport::Gzip
+[Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/Gzip.html)
+
+#### Alternatives
+1. core library: zlib [link](https://ruby-doc.org/stdlib-2.1.1/libdoc/zlib/rdoc/Zlib.html)
+2. SO question: How to decompress Gzip string in ruby? [link](http://stackoverflow.com/questions/1361892/how-to-decompress-gzip-string-in-ruby)
 
 ## Not rails specific gems which use AS as dependency
 
