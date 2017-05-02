@@ -15,6 +15,7 @@ you can use instead using ActiveSupport
 * [ActiveSupport::Deprecation](#activesupportdeprecation)
 * [ActiveSupport::Duration](#activesupportduration)
 * [ActiveSupport::Gzip](#activesupportgzip)
+* [ActiveSupport::HashWithIndifferentAccess](#activesupporthashwithindifferentaccess)
 
 ## Features
 
@@ -69,6 +70,13 @@ you can use instead using ActiveSupport
 #### Alternatives
 1. core library: zlib [link](https://ruby-doc.org/stdlib-2.1.1/libdoc/zlib/rdoc/Zlib.html)
 2. SO question: How to decompress Gzip string in ruby? [link](http://stackoverflow.com/questions/1361892/how-to-decompress-gzip-string-in-ruby)
+
+### ActiveSupport::HashWithIndifferentAccess
+[Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/HashWithIndifferentAccess.html)
+
+#### Alternatives
+1. gem: hashie [link](https://github.com/intridea/hashie#indifferentaccess)
+
 
 ## Not rails specific gems which use AS as dependency
 
