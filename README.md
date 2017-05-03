@@ -82,7 +82,8 @@ you can use instead using ActiveSupport
 [Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/HashWithIndifferentAccess.html)
 
 #### Alternatives
-1. gem: hashie [link](https://github.com/intridea/hashie#indifferentaccess)
+1. core library: OpenStruct [link](http://ruby-doc.org/stdlib-2.0.0/libdoc/ostruct/rdoc/OpenStruct.html)
+2. gem: hashie [link](https://github.com/intridea/hashie#indifferentaccess)
 
 ### ActiveSupport::Inflector
 [Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/Inflector.html)
