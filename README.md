@@ -7,6 +7,10 @@ some developers use rails dependency in gems which not related to use only with
 rails. That's why the main idea of this repo is to collect all libraries which
 you can use instead using ActiveSupport
 
+## Blog Posts
+- [Cutting Corners or Why Rails May Kill Ruby](http://solnic.eu/2015/06/06/cutting-corners-or-why-rails-may-kill-ruby.html) by @solnic
+- [Do, or do not. There is no #try.](http://www.virtuouscode.com/2011/06/28/do-or-do-not-there-is-no-try/)
+
 ## TODO
 
 1. collect all gems or solutions which can replace some parts of AS _(current status)_
@@ -112,6 +116,12 @@ none
 
 ### ActiveSupport::RangeWithFormat
 [Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/RangeWithFormat.html)
+
+#### Alternatives
+none
+
+### ActiveSupport::TimeWithZone
+[Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/TimeWithZone.html)
 
 #### Alternatives
 none
