@@ -92,11 +92,32 @@ you can use instead using ActiveSupport
 1. gem: inflecto [link](https://github.com/mbj/inflecto)
 2. gem: linguistics [link](https://github.com/ged/linguistics)
 
+### ActiveSupport::LazyLoadHooks
+[Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/LazyLoadHooks.html)
+
+#### Alternatives
+none
+
 ### ActiveSupport::NumberHelper
 [Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/NumberHelper)
 
 #### Alternatives
 1. core library: `Kernel#sprintf` [link](https://ruby-doc.org/core-2.4.1/Kernel.html#method-i-sprintf)
+
+### ActiveSupport::NumericWithFormat
+[Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/NumericWithFormat.html)
+
+#### Alternatives
+none
+
+### ActiveSupport::RangeWithFormat
+[Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/RangeWithFormat.html)
+
+#### Alternatives
+none
+
+### ActiveSupport::CoreExtensions
+#### Integer
 
 ## Not rails specific gems which use AS as dependency
 
