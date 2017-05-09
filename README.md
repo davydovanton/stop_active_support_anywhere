@@ -23,6 +23,7 @@ you can use instead using ActiveSupport
 * [ActiveSupport::Gzip](#activesupportgzip)
 * [ActiveSupport::HashWithIndifferentAccess](#activesupporthashwithindifferentaccess)
 * [ActiveSupport::Inflector](#activesupportinflector)
+* [ActiveSupport::NumberHelper](#activesupportnumberhelper)
 
 ## Features
 
@@ -90,6 +91,12 @@ you can use instead using ActiveSupport
 #### Alternatives
 1. gem: inflecto [link](https://github.com/mbj/inflecto)
 2. gem: linguistics [link](https://github.com/ged/linguistics)
+
+### ActiveSupport::NumberHelper
+[Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/NumberHelper)
+
+#### Alternatives
+1. core library: `Kernel#sprintf` [link](https://ruby-doc.org/core-2.4.1/Kernel.html#method-i-sprintf)
 
 ## Not rails specific gems which use AS as dependency
 
