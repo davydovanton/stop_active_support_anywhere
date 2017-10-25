@@ -80,14 +80,14 @@ you can use instead using ActiveSupport
 [Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/Gzip.html)
 
 #### Alternatives
-1. core library: zlib [link](https://ruby-doc.org/stdlib-2.1.1/libdoc/zlib/rdoc/Zlib.html)
+1. core library: zlib [link](https://ruby-doc.org/stdlib-2.4.2/libdoc/zlib/rdoc/Zlib.html)
 2. SO question: How to decompress Gzip string in ruby? [link](http://stackoverflow.com/questions/1361892/how-to-decompress-gzip-string-in-ruby)
 
 ### ActiveSupport::HashWithIndifferentAccess
 [Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/HashWithIndifferentAccess.html)
 
 #### Alternatives
-1. core library: OpenStruct [link](http://ruby-doc.org/stdlib-2.0.0/libdoc/ostruct/rdoc/OpenStruct.html)
+1. core library: OpenStruct [link](http://ruby-doc.org/stdlib-2.4.2/libdoc/ostruct/rdoc/OpenStruct.html)
 
 ### ActiveSupport::Inflector
 [Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/Inflector.html)
@@ -106,7 +106,7 @@ none
 [Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/NumberHelper)
 
 #### Alternatives
-1. core library: `Kernel#sprintf` [link](https://ruby-doc.org/core-2.4.1/Kernel.html#method-i-sprintf)
+1. core library: `Kernel#sprintf` [link](https://ruby-doc.org/core-2.4.2/Kernel.html#method-i-sprintf)
 
 ### ActiveSupport::NumericWithFormat
 [Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/NumericWithFormat.html)
