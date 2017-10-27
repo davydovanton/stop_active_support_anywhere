@@ -130,6 +130,8 @@ none
 #### Integer
 
 ## Not rails specific gems which use AS as dependency
+* [Grape](https://github.com/ruby-grape/grape)
+* [graphql-client](https://github.com/github/graphql-client) – it includes some Rails-specific parts, especially for views, but ActiveSupport is required even for basics.
 
 ## Contribute
 Contributions welcome!
