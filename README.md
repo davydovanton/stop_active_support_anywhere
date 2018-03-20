@@ -7,7 +7,7 @@ some developers use rails dependency in gems which not related to use only with
 rails. That's why the main idea of this repo is to collect all libraries which
 you can use instead using ActiveSupport
 
-## ActiveSupport is Evil
+## Some Problems with ActiveSupport
 ActiveSupport is a "toolkit of support libraries *and Ruby core extensions*
 extracted from the Rails framework". *Core extensions* is a prettier name for
 [monkey-patches](https://en.wikipedia.org/wiki/Monkey_patch)
@@ -156,7 +156,6 @@ none
 
 ## Not rails specific gems which use AS as dependency
 * [Grape](https://github.com/ruby-grape/grape)
-* [graphql-client](https://github.com/github/graphql-client) – it includes some Rails-specific parts, especially for views, but ActiveSupport is required even for basics.
 
 ## Contribute
 Contributions welcome!
