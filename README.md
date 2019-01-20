@@ -43,6 +43,7 @@ environment by monkey-patching.
 
 ## Table of contents
 * [ActiveSupport::ArrayInquirer](#activesupportarrayinquirer)
+* [ActiveSupport::BacktraceCleaner](#activesupportbacktracecleaner)
 * [ActiveSupport::Callbacks](#activesupportcallbacks)
 * [ActiveSupport::Configurable](#activesupportconfigurable)
 * [ActiveSupport::Concurrency](#activesupportconcurrency)
@@ -59,6 +60,12 @@ environment by monkey-patching.
 [Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/ArrayInquirer.html)
 
 #### Alternatives
+
+### ActiveSupport::BacktraceCleaner
+[Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/BacktraceCleaner.html)
+
+#### Alternatives
+1. gem: Morozzzko/backtrace_cleaner [link](https://github.com/Morozzzko/backtrace_cleaner)
 
 ### ActiveSupport::Callbacks
 [Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/Callbacks.html)
