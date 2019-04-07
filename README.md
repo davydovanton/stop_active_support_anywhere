@@ -157,6 +157,7 @@ none
 
 #### Alternatives
 1. gem: et-orbi [link](https://github.com/floraison/et-orbi)
+2. Ruby 2.6 added timezone support to core [link](https://rubyreferences.github.io/rubychanges/2.6.html#time-support-for-timezones)
 
 ### ActiveSupport::CoreExtensions
 #### Integer
