@@ -52,6 +52,7 @@ environment by monkey-patching.
 * [ActiveSupport::Gzip](#activesupportgzip)
 * [ActiveSupport::HashWithIndifferentAccess](#activesupporthashwithindifferentaccess)
 * [ActiveSupport::Inflector](#activesupportinflector)
+* [ActiveSupport::Notifications](#activesupportnotifications)
 * [ActiveSupport::NumberHelper](#activesupportnumberhelper)
 
 ## Features
@@ -133,6 +134,13 @@ environment by monkey-patching.
 
 #### Alternatives
 none
+
+### ActiveSupport::Notifications
+[Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/Notifications.html)
+
+#### Alternatives
+1. gem: dry-monitor [link](https://github.com/dry-rb/dry-monitor)
+2. gem: dry-events: [link](https://github.com/dry-rb/dry-events)
 
 ### ActiveSupport::NumberHelper
 [Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/NumberHelper)
