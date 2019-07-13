@@ -106,7 +106,8 @@ environment by monkey-patching.
 
 #### Alternatives
 1. gem: zverok/time_math2 [link](https://github.com/zverok/time_math2)
-2. gem: janko-m/as-duration [link](https://github.com/janko-m/as-duration)
+2. gem: zverok/time_calc [link](https://github.com/zverok/time_calc)
+3. gem: janko-m/as-duration [link](https://github.com/janko-m/as-duration)
 
 ### ActiveSupport::Gzip
 [Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/Gzip.html)
