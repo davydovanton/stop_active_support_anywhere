@@ -131,9 +131,8 @@ environment by monkey-patching.
 [Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/Inflector.html)
 
 #### Alternatives
-1. gem: inflecto [link](https://github.com/mbj/inflecto)
-2. gem: linguistics [link](https://github.com/ged/linguistics)
-3. gem: dry-inflector [link](https://github.com/dry-rb/dry-inflector)
+1. gem: linguistics [link](https://github.com/ged/linguistics)
+2. gem: dry-inflector [link](https://github.com/dry-rb/dry-inflector)
 
 ### ActiveSupport::LazyLoadHooks
 [Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/LazyLoadHooks.html)
