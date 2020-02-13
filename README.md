@@ -67,6 +67,14 @@ environment by monkey-patching.
 
 #### Alternatives
 
+```ruby
+# instead of:
+[:blue, :green].blue?
+
+# do this:
+[:blue, :green].include?(:blue)
+```
+
 ### ActiveSupport::BacktraceCleaner
 [Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/BacktraceCleaner.html)
 
