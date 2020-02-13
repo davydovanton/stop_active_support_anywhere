@@ -34,7 +34,7 @@ module.exports = {
     ['@vuepress/back-to-top'],
     [ 'autometa', {
       site: {
-        name   : 'Hanami Cookbook',
+        name   : 'Stop ActiveSupport Anywhere',
       },
       canonical_base: '',
     }]
