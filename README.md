@@ -52,7 +52,7 @@ environment by monkey-patching.
 * [ActiveSupport::Gzip](#activesupportgzip)
 * [ActiveSupport::HashWithIndifferentAccess](#activesupporthashwithindifferentaccess)
 * [ActiveSupport::Inflector](#activesupportinflector)
-* [ActiveSupport::LazyLoadHooks](activesupportlazyloadhooks)
+* [ActiveSupport::LazyLoadHooks](#activesupportlazyloadhooks)
 * [ActiveSupport::Notifications](#activesupportnotifications)
 * [ActiveSupport::NumberHelper](#activesupportnumberhelper)
 * [ActiveSupport::NumericWithFormat](#activesupportnumericwithformat)
