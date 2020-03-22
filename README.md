@@ -41,6 +41,7 @@ environment by monkey-patching.
 2. filter all this information
 3. create list of not only rails gems which use AS and try to fix it
 
+
 ## Table of contents
 * [ActiveSupport::ArrayInquirer](#activesupportarrayinquirer)
 * [ActiveSupport::BacktraceCleaner](#activesupportbacktracecleaner)
@@ -61,6 +62,10 @@ environment by monkey-patching.
 * [ActiveSupport::CoreExtensions](#activesupportcoreextensions)
 
 ## Features
+
+### date formatters
+
+* [date-formatter](https://github.com/feedreader/pluto/tree/master/date-formatter)
 
 ### ActiveSupport::ArrayInquirer
 [Link to rails docs](http://api.rubyonrails.org/classes/ActiveSupport/ArrayInquirer.html)
