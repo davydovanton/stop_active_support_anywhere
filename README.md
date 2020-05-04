@@ -13,7 +13,7 @@ extracted from the Rails framework". *Core extensions* is a prettier name for
 [monkey-patches](https://en.wikipedia.org/wiki/Monkey_patch)
 of Ruby core classes. Monkey-patching breaks fundamental contracts
 with the language core -
-[with deadly consequences](http://solnic.eu/2015/06/06/cutting-corners-or-why-rails-may-kill-ruby.html).
+[with deadly consequences](https://solnic.codes/2015/06/06/cutting-corners-or-why-rails-may-kill-ruby).
 
 Monkey-patching hinders interoperability. Any piece of Ruby software is written
 to work either in the monkey-patch-free environment, or in the monkey-patched one.
