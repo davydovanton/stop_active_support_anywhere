@@ -1,13 +1,10 @@
-# Stop ActiveSupport Anywhere
+# Stop ActiveSupport Everywhere
 
-## Goal
-We love ruby and ruby community. We can find excellent web (and not only web)
-frameworks like rails, hanami, grape, sinatra, dry-wb, roda, etc. But sometimes
-some developers use rails dependency in gems which not related to use only with
-rails. That's why the main idea of this repo is to collect all libraries which
-you can use instead using ActiveSupport
+## Goals
+We love Ruby and the Ruby community. It is home to excellent frameworks like Rails, Hanami, Grape, Sinatra, dry-rb, Roda, and more, but sometimes
+developers use Ruby on Rails dependencies in gems which are not supposed to be used only with Rails. That's why the main idea of this repo is to collect all libraries which you can use instead of using ActiveSupport.
 
-## Some Problems with ActiveSupport
+## Problems with ActiveSupport
 ActiveSupport is a "toolkit of support libraries *and Ruby core extensions*
 extracted from the Rails framework". *Core extensions* is a prettier name for
 [monkey-patches](https://en.wikipedia.org/wiki/Monkey_patch)
@@ -17,18 +14,15 @@ with the language core -
 
 Monkey-patching hinders interoperability. Any piece of Ruby software is written
 to work either in the monkey-patch-free environment, or in the monkey-patched one.
-Sure: with a bit of luck, many work in both. But won't your gem break with the next
-release of ActiveRecord (which it itself doesn't rely on at all)? Noone can say
+Sure, with a bit of luck, it many work in both, but you cannot guarantee that the software won't break with the
+next release of ActiveRecord (which it itself doesn't rely on it at all). No one can tell
 in advance.
 
-## When it is Permissible to Depend on ActiveSupport?
+## When should you depend on ActiveSupport?
 *"You are definitely allowed to shoot yourself in the foot, if you really want to."*
-It is only responsible to rely on ActiveSupport (or another similar ton of
-monkey-patches) if you are in position of the "lord of the stack",
-i.e., if you are developing an *application*, and you are the only one who decides
-forever, which components will interoperate. *Libraries*, aiming to be general
-tools, maximally interoperable with others, as well as
-*applications open to extensions*, must never pollute the runtime
+It is only responsible to rely on ActiveSupport (or similar monkey-patches) if you are the only one who decides
+forever, which components will interoperate. Libraries aiming to be general
+tools, maximally interoperable with others, and *applications open to extensions*, must never pollute the runtime
 environment by monkey-patching.
 
 ## Blog Posts
@@ -37,9 +31,9 @@ environment by monkey-patching.
 
 ## TODO
 
-1. collect all gems or solutions which can replace some parts of AS _(current status)_
-2. filter all this information
-3. create list of not only rails gems which use AS and try to fix it
+1. Collect all gems or solutions which can replace some parts of ActiveSupport _(current status)_
+2. Filter all this information
+3. Create a list of not only rails gems which use AS, and try to fix it
 
 
 ## Table of contents
